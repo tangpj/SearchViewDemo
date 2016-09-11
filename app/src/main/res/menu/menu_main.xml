@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.searchview.MainActivity">
+
+    <item android:id="@+id/search_view"
+        android:orderInCategory="101"
+        android:title="search"
+        android:icon="@mipmap/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+</menu>
